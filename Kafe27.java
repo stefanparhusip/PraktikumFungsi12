@@ -10,8 +10,17 @@ public static void Menu(){
     System.out.println("6. Mie Goreng - Rp 18.000");
     System.out.println("=========================");
     System.out.println("Silahkan pilih menu yang anda inginkan");
+
 }
 public static void main(String[] args) {
-    Menu();
+ 
+
+    int i ;
+   
+     
+         for(i = 1; i <= 3; i++){
+            System.out.printf("Tampilan menu %d adalah: %n", i);
+            Menu();
+         }
 }
 }
